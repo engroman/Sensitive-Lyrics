@@ -1,0 +1,208 @@
+body {
+background-image: url(./img/стена.jpg);
+font-size: 24px;
+}
+header{
+    position: fixed;
+    box-shadow: 0 0 10px rgba(0,0,0,1);  
+    width: 100%;
+    background-image: url(./img/стена.jpg);
+}
+.logo {
+padding-bottom: 10px;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin-top: 10px;
+}
+nav a {
+    font-weight: 500;
+    color: black;
+    margin-left: 10px;
+    text-shadow: rgb(241, 114, 41) 1px 0 10px;
+}
+nav a:first-child {
+    margin-left: 0px;
+}
+nav a:hover {
+    color: rgb(19, 4, 228);
+    text-shadow: rgb(2, 51, 9) 1px 0 4px;  
+    transition: 0.2s ease-in;
+}
+.burger-menu {
+    display: none;
+    width: 150px;
+   
+   
+    
+}
+
+.block {
+    display: block;
+    color: black;
+    text-shadow: rgb(241, 114, 41) 1px 0 10px;
+     background-image: url(./img/стена.jpg);
+     padding-bottom: 5px;
+     font-family: 'Marck Script';
+     font-weight: bold;
+      padding: 0 10px;
+      transition: 0.2 ease;
+}
+.block:hover {
+    color: blue;
+}
+.block:active {
+    color: brown;
+}
+.burger-slide {
+    position: absolute;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.disp {
+    display: none;
+}
+h1 {
+    padding-top: 200px;
+    text-align: center;
+    font-family: 'Marck Script';
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 30px; 
+    text-shadow: rgb(241, 114, 41) 1px 0 10px;
+}
+
+h2 {
+    font-family: 'Marck Script';
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    text-shadow: rgb(241, 114, 41) 1px 0 10px;
+}
+
+.logo img {
+    height: 100px;
+}
+.wrapper {
+   
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./img/стена1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+ 
+    
+}
+.lyrics__img img {
+    height: 700px;
+    object-fit: cover;  
+}
+.container-2 {
+    background-image: url(./img/стена7.jpg);
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgb(7, 7, 7), 0 0 1em rgb(0, 0, 0), 0 0 2em rgb(0, 0, 0);
+}
+.container-3 {
+    background-image: url(./img/стена\ 3.jpg);
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgb(7, 7, 7), 0 0 1em rgb(0, 0, 0), 0 0 2em rgb(0, 0, 0);
+}
+.container-4 {
+    background-image: url(./img/стена6.jpg);
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgb(7, 7, 7), 0 0 1em rgb(0, 0, 0), 0 0 2em rgb(0, 0, 0);
+}
+.container-5 {
+    background-image: url(./img/стена\ 5.jpg);
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgb(7, 7, 7), 0 0 1em rgb(0, 0, 0), 0 0 2em rgb(0, 0, 0);
+}
+.container-6 {
+    background-image: url(./img/стена10.jpg);
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgb(7, 7, 7), 0 0 1em rgb(0, 0, 0), 0 0 2em rgb(0, 0, 0);
+}
+.container-7 {
+    background-image: url(./img/стена11.jpg);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgb(7, 7, 7), 0 0 1em rgb(0, 0, 0), 0 0 2em rgb(0, 0, 0);
+}
+@media (max-width:1200px) {
+    .burger-menu {
+        display: block;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .burgers-image {
+        display: none;
+    }
+}
+@media (max-width:922px) {
+.container-2,
+.container-3, 
+.container-4,
+.container-5,
+.container-6 {
+     font-size: 24px;
+    }   
+    h2 {
+        font-size: 50px;
+    }
+    
+}
+
+@media (max-width:768px) {
+.container {
+    flex-direction: column;
+    padding-top: 20px;
+}
+h1 {
+    font-size:48px;
+}
+h2 {
+    font-size: 36px;
+}
+.lyrics__img img {
+    height: 400px;
+    padding-top: 20px;
+}    
+}
+@media (max-width:480px) {
+.container {
+    font-size: 18px;
+}
+    
+}
+@media (max-width:320px) {
+    
+}
